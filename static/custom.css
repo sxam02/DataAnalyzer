@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.stTextInput > div > div > input {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.stButton > button {
+    background-color: #4B8BBE;
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 20px 0;
+}
+
+.stButton > button:hover {
+    background-color: #306998;
+}
+
+.upload-section {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.results-section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.stAlert {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Custom styling for the query input box */
+.query-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Loading spinner customization */
+.stSpinner > div {
+    border-color: #4B8BBE !important;
+}
